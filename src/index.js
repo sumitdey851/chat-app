@@ -1,6 +1,6 @@
 const path = require('path')    //path is node core module -> no npm installation required
 const http = require('http')    //importing core module http to refactor server creation outside of express library
-const express = require('express')
+const express = require('express')      //setting up express
 const socketio = require('socket.io')   //setup socket.io
 const Filter = require('bad-words')     //npm to filter profane words
 const { generateMessage, generateLocationMessage } = require('./utils/messages')
